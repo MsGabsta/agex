@@ -1,3 +1,4 @@
-echo "Hello World" > HelloWorld1.txt
+echo "Pre-Reboot" > Pre-Reboot.txt
 reboot -f
-echo "Hello World" > HelloWorld1.txt
+sleep 5m
+echo "Post-Reboot" > Post-Reboot.txt
